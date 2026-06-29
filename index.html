@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бутенко Ростислав — Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="toggle-projects" class="projects-trigger">
+
+    <div class="container">
+        <div class="left-side"></div>
+
+        <div class="right-side">
+            
+            <div class="content main-screen">
+                <h1>Ростислав <span style="color: #bef264;">Бутенко</span></h1>
+                <p class="tagline">Infrastructure. Security. Automation.</p>
+                
+                <p class="bio">
+                    Системный инженер с 9-летним опытом. Проектирую надежную инфраструктуру, автоматизирую рутину на Python и обеспечиваю безопасность данных.
+                </p>
+
+                <div class="links-container">
+                    <label for="toggle-projects" class="btn-ghost target-btn"><span>Меню</span></label>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rockevilkiev@gmail.com" target="_blank" class="btn-ghost"><span>Email</span></a>
+                    <a href="https://t.me/rockevil" target="_blank" class="btn-ghost"><span>Telegram</span></a>
+                </div>
+            </div>
+
+            <div class="content projects-screen">
+                <h2>Инженерная панель</h2>
+                <p class="tagline">Выберите модуль</p>
+                
+                <div class="links-container">
+                    <a href="#" class="btn-ghost sub-btn" data-info="tech-stack"><span>Технологический стек</span></a>
+                    <a href="#" class="btn-ghost sub-btn" data-info="net-mgmt"><span>Управление сетевой средой</span></a>
+                    <a href="#" class="btn-ghost sub-btn" data-info="security-pam"><span>Security & PAM</span></a>
+                    <a href="#" class="btn-ghost sub-btn" data-info="prod-projects"><span>Production Projects</span></a>
+                    <a href="#" class="btn-ghost sub-btn" data-info="certificates"><span>Квалификационные аттестаты</span></a>
+                    <a href="#" class="btn-ghost sub-btn" data-info="infra-value"><span>Infrastructure & Value</span></a>
+                    
+                    <div id="master-preview"></div>
+                    
+                    <label for="toggle-projects" class="btn-ghost target-btn back-btn"><span>← Вернуться</span></label>
+                </div>
+                
+                <div class="projects-list" style="margin-top: 20px; font-size: 0.8rem; color: #666;">
+                    <div class="project-item">
+                        <h3>"Безопасность и автоматизция - это не опция, это фундамент любой системы, претендующей на выживание в современном мире."</h3>
+                        <p style="color: #00ff41;">Ростислав Бутенко</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
