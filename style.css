@@ -34,10 +34,11 @@ body {
 .right-side:hover { background-color: rgba(0, 0, 0, 0.8); }
 
 .content {
-    max-width: 500px;
-    width: 100%;
+    max-width: 80%; 
+    width: 500px;   
+    margin: 0 auto; 
     transition: 0.5s;
-    text-align: center; /* Добавь эту строку */
+    text-align: center;
 }
 
 .projects-screen {
