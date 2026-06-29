@@ -109,7 +109,8 @@ h1, h2 { font-size: 3rem; font-weight: 700; margin-bottom: 5px; }
     position: relative;
     clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
     width: fit-content;
-    min-width: 220px;
+    max-width: 220px;
+    box-sizing: border-box;
 }
 
 .btn-ghost span { display: block; line-height: 1; }
